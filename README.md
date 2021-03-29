@@ -1,8 +1,11 @@
 # Linear-optimization
-Find the optimal solution in a given linear system
-# Input Format
-* first line = first integer is number of constraints (m), second integer is number of variables (n)
-* second line = the vector of objective function (c)
-* next n^th line with n columns is the constraint matrix (A)
-* n+1^th column is (b) matrix
-* All constraints are smaller or equal to
+Find the optimal solution in a given linear system by simplex method
+
+## The System should have following conditions
+*  the objective is minimization
+*  variables are non-negative
+*  constraints are less than or equal to type with non-negative right-hand sides 
+*  simplex algorithm converges to a solution.
+
+## Input Format
+The first number in .txt files gives the number of constraints 𝑚 and second number gives the number of variables 𝑛. Then, there is a 1 × 𝑛 matrix which gives the cost vector 𝑐. Finally, there is an 𝑚 × (𝑛 + 1) matrix which represents the augmented matrix [𝐴|𝑏]. 
