@@ -1,5 +1,5 @@
 # Linear-optimization
-Find the optimal solution in a given linear system by simplex method
+Find the optimal solution in a given linear system by simplex method,without using any numeric python library
 
 ## The System should have following conditions
 *  the objective is minimization
